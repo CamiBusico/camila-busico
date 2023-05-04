@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --colorUno: #772B08; 
+  --colorDos:#8F7F10;
+  --colorTres: #F7ECC4;
+  --colorCuatro:#817707;
+  --colorCinco:#7e3131;
+  --tipografiaUno: font-family: 'Amatic SC', cursive;
+  --tipografiaDos: font-family: 'Jura', sans-serif;
+  --tipografiaTres: font-family: 'Playfair Display SC', serif;
+  --tipografiaCuatro: font-family: 'Quicksand', sans-serif;
+}
+
+
+.body{ 
+  height: 100%;
+  width: 100%;
+  background-color: var(--colorTres);
+}
+
+.header{
+  background-color: var(--colorDos);
+  width: 100%;
+  text-align: center;
+
+}
