@@ -1,6 +1,12 @@
-const Footer  = () => {
+import React from "react";
+
+
+
+const Footer  = ({legal} ) => {
     return(
-        <div className="footer"> ESTO ES EL FOOTER </div>
+        <div className="footer conteiner-fuid"> 
+        <p>{legal} </p>
+        </div>
     )
 }
 

@@ -1,6 +1,7 @@
 import './App.css';
+import React from "react";
 import Header from './components/header';
-import Main from './components/main';
+import ItemListContainer from './components/ItemListComntainer';
 import Footer from './components/footer';
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
             <body className='body'>
             
                 <Header/>
-                <Main/>
-                <Footer/>
+                <ItemListContainer slogan={"Más que una IPA"} />
+                <Footer legal={"Producto exclusivo para mayores de 18 años"} />
             </body>
           </div>
         

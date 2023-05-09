@@ -24,7 +24,63 @@
 
 .header{
   background-color: var(--colorDos);
-  width: 100%;
-  text-align: center;
+ padding: 1%;
+ display: flex;
+  justify-content: space-between;
+}
 
+.menu{ 
+  justify-content: flex-end;
+}
+
+.partesNav{
+  display: flex;
+  align-items: center;
+}
+
+.cardsCervezas{
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+}
+
+.nav-link{ color: #F7ECC4;
+          
+}
+
+.nav-link:hover{ color: #772B08;
+
+}
+
+.botonExpandir:hover{
+  background-color: #F7ECC4;
+}
+
+.estiloBotones{
+    background-color:  var(--colorTres);
+    color:var(--colorCuatro);
+    border: black;
+}
+.estiloBotones:hover{
+          background-color: var(--colorCuatro);
+          color: var(--colorTres);
+      }
+
+
+.card-text{
+  font-family: 'Quicksand', sans-serif;;
+}
+
+.estiloSlogan{
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  padding: 2%;
+  color:#8F7F10;
+}
+
+.footer{
+    background-color:#817707;
+    padding: 2%;
+    color: #F7ECC4;
+    text-align: center;
 }
