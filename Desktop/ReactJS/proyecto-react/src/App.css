@@ -1,3 +1,5 @@
+/* estilos generales */
+
 *{
   margin: 0;
   padding: 0;
@@ -15,13 +17,13 @@
   --tipografiaCuatro: font-family: 'Quicksand', sans-serif;
 }
 
-
 .body{ 
   height: 100%;
   width: 100%;
   background-color: var(--colorTres);
 }
 
+/* navbar  */
 .header{
   background-color: var(--colorDos);
  padding: 1%;
@@ -29,31 +31,38 @@
   justify-content: space-between;
 }
 
-.menu{ 
-  justify-content: flex-end;
+.nav-link{ color: #F7ECC4;
+          
 }
+.nav-link:hover{ color: #772B08;
+
+}
+
 
 .partesNav{
   display: flex;
   align-items: center;
 }
 
-.cardsCervezas{
-              display: flex;
-              flex-wrap: wrap;
-              justify-content: center;
-}
-
-.nav-link{ color: #F7ECC4;
-          
-}
-
-.nav-link:hover{ color: #772B08;
-
-}
-
 .botonExpandir:hover{
   background-color: #F7ECC4;
+}
+
+.menu{ 
+  justify-content: flex-end;
+}
+
+
+/* Item list container */
+
+.cardsCervezas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-text{
+  font-family: 'Quicksand', sans-serif;;
 }
 
 .estiloBotones{
@@ -61,15 +70,15 @@
     color:var(--colorCuatro);
     border: black;
 }
+
 .estiloBotones:hover{
           background-color: var(--colorCuatro);
           color: var(--colorTres);
       }
 
 
-.card-text{
-  font-family: 'Quicksand', sans-serif;;
-}
+
+/*  app.js */
 
 .estiloSlogan{
   font-family: 'Playfair Display SC', serif;
@@ -77,6 +86,8 @@
   padding: 2%;
   color:#8F7F10;
 }
+
+/* footer */
 
 .footer{
     background-color:#817707;
